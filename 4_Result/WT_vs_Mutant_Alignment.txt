@@ -1,0 +1,79 @@
+WT VS MUTANT PROTEIN ALIGNMENT
+Gene: BCKDHA
+Disease: Maple Syrup Urine Disease (MSUD)
+
+Reference transcript: NM_000709.4
+Reference protein: NP_000700.1
+
+==================================================
+1. WT vs Documented Mutant
+==================================================
+
+Documented mutation:
+c.929C>G
+Codon change: ACA → AGA
+Protein change: p.Thr310Arg (T310R)
+
+WT protein length: 445 amino acids
+Documented mutant protein length: 445 amino acids
+
+Protein sequence around amino-acid position 310:
+
+WT:
+GNDVFAVYNATKEARRRAVAE
+         T
+         ^
+      position 310
+
+Documented Mutant:
+GNDVFAVYNARKEARRRAVAE
+         R
+         ^
+      position 310
+
+Comparison:
+WT:      GNDVFAVYNATKEARRRAVAE
+Mutant:  GNDVFAVYNARKEARRRAVAE
+                   *
+
+The only amino-acid difference is at position 310:
+WT = Threonine (T)
+Mutant = Arginine (R)
+
+No amino acids were inserted or deleted.
+No frameshift occurred.
+No premature stop codon occurred.
+Both proteins are 445 amino acids long.
+
+==================================================
+2. WT vs Artificial Mutant
+==================================================
+
+Artificial mutation:
+c.303G>A
+Codon change: AAG → AAA
+Protein consequence: Synonymous
+
+WT amino acid: Lysine (K)
+Artificial mutant amino acid: Lysine (K)
+
+The WT and artificial mutant predicted protein sequences are identical.
+
+WT protein length: 445 amino acids
+Artificial mutant protein length: 445 amino acids
+
+No amino-acid substitutions were observed.
+No amino acids were inserted or deleted.
+No frameshift occurred.
+No premature stop codon occurred.
+
+==================================================
+Overall Comparison
+==================================================
+
+The documented c.929C>G mutation caused one amino-acid substitution,
+p.Thr310Arg (T310R), while the artificial c.303G>A mutation caused
+no change in the predicted amino-acid sequence.
+
+The documented mutation is missense, while the artificial mutation
+is synonymous.
